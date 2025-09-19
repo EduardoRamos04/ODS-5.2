@@ -68,7 +68,7 @@ header.hero .subtitle {
 /* Logos lado a lado */
 .logos {
   display: flex;
-  gap: 12px;
+  gap: 30px;
   align-items: center;
   justify-content: flex-end;
 }
@@ -287,4 +287,5 @@ header.hero .subtitle {
   .logos { justify-content: flex-start; margin-top: 12px; }
   .title { font-size: 22px; }
 }
+
 
