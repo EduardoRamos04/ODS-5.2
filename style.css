@@ -1,12 +1,12 @@
 :root {
-  --bg: #f6f4fb;
-  --panel: #5b3a84;
-  --accent: #3e2b63;
-  --muted: #6b6b6b;
-  --white: #ffffff;
-  --radius: 12px;
-  --max-width: 900px;
-  --container-padding: 28px;
+  bg: #f6f4fb;
+  panel: #5b3a84;
+  accent: #3e2b63;
+  muted: #6b6b6b;
+  white: #ffffff;
+  radius: 12px;
+  max-width: 900px;
+  container-padding: 28px;
 }
 
 * {
@@ -287,3 +287,4 @@ header.hero .subtitle {
   .logos { justify-content: flex-start; margin-top: 12px; }
   .title { font-size: 22px; }
 }
+
