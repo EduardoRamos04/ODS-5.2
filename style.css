@@ -312,6 +312,25 @@ header.hero .subtitle {
   .title { font-size: 22px; }
 }
 
+.destaque {
+  background-color: #fdf5ff;
+  border: 2px dashed var(--panel);
+  padding: 16px;
+  border-radius: var(--radius);
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(90, 40, 140, 0.05);
+}
+
+.destaque .alerta {
+  color: var(--accent);
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+
+
 
 
 
