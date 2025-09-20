@@ -211,6 +211,21 @@ header.hero .subtitle {
   box-shadow: 0 4px 18px rgba(77,40,119,0.16);
 }
 
+  .phone:hover {
+      background: var(--secondary);
+      transform: translateY(-2px);
+    }
+
+    /* Botão especial 190 (vermelho) */
+    .phone.red {
+      background: var(--danger);
+    }
+
+    .phone.red:hover {
+      background: #b71c1c;
+    }
+
+
 /* Imagem no lugar do QR */
 .qr {
   display: flex;
@@ -287,4 +302,5 @@ header.hero .subtitle {
   .logos { justify-content: flex-start; margin-top: 12px; }
   .title { font-size: 22px; }
 }
+
 
