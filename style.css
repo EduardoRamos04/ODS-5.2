@@ -70,6 +70,13 @@ header.hero .subtitle {
 
 /* Logos lado a lado */
 
+.logo {
+ display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .logos img {
   width:70px;
   height: auto;
@@ -304,6 +311,7 @@ header.hero .subtitle {
   .logos { justify-content: flex-start; margin-top: 12px; }
   .title { font-size: 22px; }
 }
+
 
 
 
