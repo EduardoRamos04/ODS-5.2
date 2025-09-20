@@ -78,16 +78,16 @@ header.hero .subtitle {
 }
 
 .logos img {
-  width: 100px !important;
+  width: 120px !important;
   height: auto;
   border-radius: 8px;
   transition: transform 0.2s ease-in-out;
 }
 
 
-.logos img:hover {
+/* .logos img:hover {
   transform: scale(1.05);
-}
+} /*
 
 /* Conteúdo */
 .content {
@@ -307,6 +307,7 @@ header.hero .subtitle {
   .logos { justify-content: flex-start; margin-top: 12px; }
   .title { font-size: 22px; }
 }
+
 
 
 
