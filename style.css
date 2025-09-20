@@ -70,28 +70,17 @@ header.hero .subtitle {
 
 /* Logos lado a lado */
 
-.logo {
- display: flex;
-  gap: 12px;
-  align-items: center;
-  justify-content: flex-end;
-}
-
 .logos img {
-  width:50PX;
+  width: 70px; /* Tamanho ideal para logos */
   height: auto;
   border-radius: 8px;
   transition: transform 0.2s ease-in-out;
-  display: flex;
-  gap: 12px;
-  align-items: center;
-  justify-content: flex-end;
 }
-
 
 .logos img:hover {
   transform: scale(1.05);
-} 
+}
+
 
 /* Conteúdo */
 .content {
@@ -328,6 +317,7 @@ header.hero .subtitle {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
 
 
 
