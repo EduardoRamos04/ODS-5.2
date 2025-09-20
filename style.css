@@ -78,7 +78,7 @@ header.hero .subtitle {
 }
 
 .logos img {
-  width: 120px !important;
+  width:70px;
   height: auto;
   border-radius: 8px;
   transition: transform 0.2s ease-in-out;
@@ -307,6 +307,7 @@ header.hero .subtitle {
   .logos { justify-content: flex-start; margin-top: 12px; }
   .title { font-size: 22px; }
 }
+
 
 
 
