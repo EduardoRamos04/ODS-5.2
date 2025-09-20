@@ -85,9 +85,9 @@ header.hero .subtitle {
 }
 
 
-/* .logos img:hover {
+.logos img:hover {
   transform: scale(1.05);
-} /*
+} 
 
 /* Conteúdo */
 .content {
@@ -307,6 +307,7 @@ header.hero .subtitle {
   .logos { justify-content: flex-start; margin-top: 12px; }
   .title { font-size: 22px; }
 }
+
 
 
 
