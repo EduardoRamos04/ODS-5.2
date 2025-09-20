@@ -78,7 +78,7 @@ header.hero .subtitle {
 }
 
 .logos img {
-  width:70px;
+  width:50PX;
   height: auto;
   border-radius: 8px;
   transition: transform 0.2s ease-in-out;
@@ -312,22 +312,23 @@ header.hero .subtitle {
   .title { font-size: 22px; }
 }
 
-.destaque {
-  background-color: #fdf5ff;
-  border: 2px dashed var(--panel);
-  padding: 16px;
+.alerta-roxa {
+  background: #f5edff;
+  border-left: 6px solid var(--panel);
+  padding: 18px;
   border-radius: var(--radius);
   text-align: center;
-  box-shadow: 0 4px 12px rgba(90, 40, 140, 0.05);
+  box-shadow: 0 6px 16px rgba(90, 40, 140, 0.1);
 }
 
-.destaque .alerta {
-  color: var(--accent);
-  font-size: 16px;
+.alerta-texto {
+  color: var(--panel);
+  font-size: 17px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
 }
+
 
 
 
